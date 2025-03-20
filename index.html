@@ -1,0 +1,73 @@
+<!-- site da radio g6 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rádio G6 Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rádio G6  Online</h1>
+        <nav>
+            <ul>
+                <li><a href="#geracao-80">Geração 80</a></li>
+                <li><a href="#geracao-90">Geração 90</a></li>
+                <li><a href="#geracao-2000">Geração 2000</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="geracao-80">
+            <h2>Geração 80</h2>
+            <div class="station">
+                <p>Marvin Gaye - Sexual Healing</p>
+                <button onclick="downloadMp3('musica1.mp3')">Download MP3</button>
+                <button onclick="downloadMp4('musica1.mp4')">Download MP4</button>
+            </div>
+            <div class="station">
+                <p>Dire Straits - So far away</p>
+                <button onclick="downloadMp3('musica2.mp3')">Download MP3</button>
+                <button onclick="downloadMp4('musica2.mp4')">Download MP4</button>
+            </div>
+        </section>
+
+        <section id="geracao-90">
+            <h2>Geração 90</h2>
+            <div class="station">
+                <p>Haddaway - What Is Love</p>
+                <button onclick="downloadMp3('musica3.mp3')">Download MP3</button>
+                <button onclick="downloadMp4('musica3.mp4')">Download MP4</button>
+            </div>
+            <div class="station">
+                <p>MC Hammer - U Can't Touch This</p>
+                <button onclick="downloadMp3('musica4.mp3')">Download MP3</button>
+                <button onclick="downloadMp4('musica4.mp4')">Download MP4</button>
+            </div>
+        </section>
+
+        <section id="geracao-2000">
+            <h2>Geração 2000</h2>
+            <div class="station">
+                <p>Outkast - Hey Ya!</p>
+                <button onclick="downloadMp3('musica5.mp3')">Download MP3</button>
+                <button onclick="downloadMp4('musica5.mp4')">Download MP4</button>
+            </div>
+            <div class="station">
+                <p>Coldplay - Clocks</p>
+                <button onclick="downloadMp3('musica6.mp3')">Download MP3</button>
+                <button onclick="downloadMp4('musica6.mp4')">Download MP4</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rádio G6 Online. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
